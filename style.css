@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  /* height: 100vh; */
   min-width: 288px;
   font-family: Red Hat Text;
   background-image: url(/images/bg-stars.svg);
