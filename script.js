@@ -1,6 +1,6 @@
 const countDownTimer = () => {
-  const countDate = new Date("April 19, 2022 13:40:57").getTime();
-  const timeNow = new Date().getTime();
+  const countDate = new Date("April 19, 2022 13:40:57");
+  const timeNow = new Date();
   const gapBetween = countDate - timeNow;
 
   //How time works in real life
@@ -11,8 +11,8 @@ const countDownTimer = () => {
 
   //calculating the timer
   const daytime = Math.floor(gapBetween / day);
-  const minuitTime = Math.floor((gapBetween % day) / hour);
-  const hourTime = Math.floor((gapBetween % hour) / minuit);
+  const hourTime = Math.floor((gapBetween % day) / hour);
+  const minuitTime = Math.floor((gapBetween % hour) / minuit);
   const secondsTime = Math.floor((gapBetween % minuit) / seconds);
 
   document.querySelector(".day").textContent = daytime;
