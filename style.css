@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  /* height: 100vh; */
   min-width: 288px;
   font-family: Red Hat Text;
   background-image: url(/images/bg-stars.svg);
@@ -13,7 +12,7 @@ body {
   overflow: hidden;
 }
 main {
-  padding-top: 9rem;
+  padding-top: 6rem;
 }
 
 header {
@@ -33,7 +32,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .container div h2 {
   /* background-color: #2d2c45; */
