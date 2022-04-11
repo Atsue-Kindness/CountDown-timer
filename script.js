@@ -24,8 +24,9 @@ const countDownTimer = () => {
   let stopCountDown = setInterval(countDownTimer, 1000);
 
   if (gapBetween <= 0) {
-    x;
     clearInterval(stopCountDown);
+
+    // document.querySelector(".container").style.display = "none";
 
     const screenSize = window.matchMedia("(max-width: 768px)");
     const changeScreen = (screenSize) => {
