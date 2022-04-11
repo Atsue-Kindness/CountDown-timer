@@ -1,5 +1,6 @@
 const countDownTimer = () => {
-  const countDate = new Date("April 19, 2022 13:40:57");
+  //getting countdown time
+  const countDate = new Date("April 22, 2022 00:00:00");
   const timeNow = new Date();
   const gapBetween = countDate - timeNow;
 
@@ -16,13 +17,14 @@ const countDownTimer = () => {
   const secondsTime = Math.floor((gapBetween % minuit) / seconds);
 
   document.querySelector(".day").textContent = daytime;
-  document.querySelector(".hour").textContent = minuitTime;
-  document.querySelector(".minuits").textContent = hourTime;
+  document.querySelector(".hour").textContent = hourTime;
+  document.querySelector(".minuits").textContent = minuitTime;
   document.querySelector(".seconds").textContent = secondsTime;
 
   let stopCountDown = setInterval(countDownTimer, 1000);
 
   if (gapBetween <= 0) {
+    x;
     clearInterval(stopCountDown);
 
     const screenSize = window.matchMedia("(max-width: 768px)");
