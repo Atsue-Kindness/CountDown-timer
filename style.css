@@ -11,9 +11,9 @@ body {
   color: #ffffff;
   overflow: hidden;
 }
-main {
+/* main {
   padding-top: 10%;
-}
+} */
 
 header {
   margin: 0 2rem 0;
@@ -79,7 +79,7 @@ header {
   fill: hsl(345, 95%, 68%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .header-text {
     font-size: 2rem;
     letter-spacing: 7px;
