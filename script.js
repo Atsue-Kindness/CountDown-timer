@@ -1,6 +1,6 @@
 const countDownTimer = () => {
   //getting countdown time
-  const countDate = new Date("April 22, 2022 00:00:00");
+  const countDate = new Date("April 11, 2022 00:01:59");
   const timeNow = new Date();
   const gapBetween = countDate - timeNow;
 
