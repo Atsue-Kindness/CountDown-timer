@@ -11,9 +11,9 @@ body {
   color: #ffffff;
   overflow: hidden;
 }
-/* main {
-  padding-top: 10%;
-} */
+main {
+  padding-top: 15%;
+}
 
 header {
   margin: 0 2rem 0;
@@ -89,6 +89,7 @@ header {
   .container {
     grid-template-columns: 180px 180px 180px 180px;
     gap: 30px;
+    padding-top: 5%;
   }
   .container div h2 {
     height: 170px;
@@ -99,9 +100,12 @@ header {
     padding-top: 10rem;
   } */
   .container div p {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 14px;
     letter-spacing: 4px;
+  }
+  main {
+    padding-top: 8%;
   }
   .social-icons {
     width: 100%;
